@@ -21,4 +21,21 @@ Since the size of the data was small, the files were initially cleaned using Exc
 * Converted all text to lowercase for ease of analysis
 
 ## Cosine Similarity
+The objective is to find the similarity between two documents (resume and JD) using cosine similarity. Cosine similarilty evaluates the similarity of two vectors by finding the cosine of the angle between two vectors - by computing their product and dividing it by the product of the magnitudes of the two vectors. The similarity value ranges between 0 and 1, because cosine values can only range from 0 to 1. 
+
+We can comment on the similarity of two documents by looking at their cosine value. If it is 0.63, that means the documents are 63% similar, the angle between the two documents (which are vectorized) is about 51 degrees.
+
+### TF - IDF 
+Term Frequency - Inverse Document Frequency (TF-IDF) - It is a way to balance the importance of words in a document. Frequently occuring words have lower importance and rarely occuring words have high importance
+
+The TF Vectorizer from Scikitlearn library to TF-IDF values were computed to convert the documents into a matrix of TF features. This also helped with removing stop words and tokenized words and prepared the documents for cosine similarity. The 'comp_description' function returns the resumes with the top cosine values for any JD.
+
+## LDA - 
+This was used for Topic Modelling - identifying the top topics in each set of documents
+
+
+
+
+
+
 
