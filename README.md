@@ -31,11 +31,44 @@ Term Frequency - Inverse Document Frequency (TF-IDF) - It is a way to balance th
 The TF Vectorizer from Scikitlearn library to TF-IDF values were computed to convert the documents into a matrix of TF features. This also helped with removing stop words and tokenized words and prepared the documents for cosine similarity. The 'comp_description' function returns the resumes with the top cosine values for any JD.
 
 ## LDA - 
-This was used for Topic Modelling - identifying the top topics in the documents and the top words that would come under each topic.gensim.simple_preprocess was used for tokenizing the documents. The LDAmodel function from the gensim library was used to get all the topics
+This was used for Topic Modelling - identifying the top topics in the documents and the top words that would come under each topic.gensim.simple_preprocess was used for tokenizing the documents. The LDAmodel function from the gensim library was used to get all the topics. Topic clusters were created using pyLDAvis library.
 
 ## Results
 
+This is the output of the cosine similarity function, for a particular jd, the function gave the top resume matches, in descending order.
 ![image](https://user-images.githubusercontent.com/27859890/189416787-e1b94347-e5ec-477f-aa81-92e67ddee290.png)
+
+
+These are the topic clusters formed- 
+
+**For the JD dataset**
+
+![image](https://user-images.githubusercontent.com/27859890/189417309-99a196ea-91f5-4e38-92ed-02fb82ee0d73.png)
+
+**For the resume dataset**
+
+![image](https://user-images.githubusercontent.com/27859890/189417445-6c0cd385-d795-47ab-aaed-3562ea4d922f.png)
+
+
+Word Cloud using matplotlib and wordcloud libraries - 
+
+
+**For the JD dataset**
+
+![image](https://user-images.githubusercontent.com/27859890/189417686-b77a6526-bb28-46dd-93d5-d7c4ae0f2904.png)
+
+
+![image](https://user-images.githubusercontent.com/27859890/189417722-57f4967a-d341-49b9-b26e-825fec55c63f.png)
+
+**For the resume dataset**
+
+![image](https://user-images.githubusercontent.com/27859890/189417820-c4b386a0-0cfb-4854-8b60-1dd43e9f2929.png)
+
+
+
+
+
+
 
 
 
