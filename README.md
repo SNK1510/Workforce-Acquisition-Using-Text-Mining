@@ -64,6 +64,14 @@ Word Cloud using matplotlib and wordcloud libraries -
 
 ![image](https://user-images.githubusercontent.com/27859890/189417820-c4b386a0-0cfb-4854-8b60-1dd43e9f2929.png)
 
+### Coherence and Perplexity scores
+Coherence scores tell us how interpretable the topics are to humans. Perplexity score tells us how well our model predicts  sample. A lower perplexity score indicates a better generalization performance. In this context, topic modelling provides the top skills present in the dominant topics which will help organizations gauge the top skills in the market.
+
+![image](https://user-images.githubusercontent.com/27859890/189422038-417afc92-f344-4929-a2b2-af0b23e3c75e.png)
+
+
+
+
 ## Conclusion
 This model can definitely use some improvements, in terms of cleaning the documents better, analysing tokens and topics more clearly, but we can say this works fair. This is a generic model that uses Amazon's JD data, but with advanced web scraping techniques, we can expand this analysis to job descriptions found anywhere in any format.
 
