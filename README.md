@@ -35,6 +35,7 @@ This was used for Topic Modelling - identifying the top topics in the documents 
 
 ## Results
 
+![image](https://user-images.githubusercontent.com/27859890/189416787-e1b94347-e5ec-477f-aa81-92e67ddee290.png)
 
 
 
