@@ -31,7 +31,11 @@ Term Frequency - Inverse Document Frequency (TF-IDF) - It is a way to balance th
 The TF Vectorizer from Scikitlearn library to TF-IDF values were computed to convert the documents into a matrix of TF features. This also helped with removing stop words and tokenized words and prepared the documents for cosine similarity. The 'comp_description' function returns the resumes with the top cosine values for any JD.
 
 ## LDA - 
-This was used for Topic Modelling - identifying the top topics in each set of documents
+This was used for Topic Modelling - identifying the top topics in the documents and the top words that would come under each topic.gensim.simple_preprocess was used for tokenizing the documents. The LDAmodel function from the gensim library was used to get all the topics
+
+## Results
+
+
 
 
 
