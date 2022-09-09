@@ -64,6 +64,9 @@ Word Cloud using matplotlib and wordcloud libraries -
 
 ![image](https://user-images.githubusercontent.com/27859890/189417820-c4b386a0-0cfb-4854-8b60-1dd43e9f2929.png)
 
+## Conclusion
+This model can definitely use some improvements, in terms of cleaning the documents better, analysing tokens and topics more clearly, but we can say this works fair. This is a generic model that uses Amazon's JD data, but with advanced web scraping techniques, we can expand this analysis to job descriptions found anywhere in any format.
+
 
 
 
